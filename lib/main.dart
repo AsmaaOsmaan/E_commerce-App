@@ -27,8 +27,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    return
-    FutureBuilder<SharedPreferences>(
+    return FutureBuilder<SharedPreferences>(
       future: SharedPreferences.getInstance(),
       builder: (context,snapshot){
         if(!snapshot.hasData){

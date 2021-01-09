@@ -25,7 +25,7 @@ class _HomeState extends State<Home> {
   Store _store = Store();
   int tabBarIndex = 0;
   int bottomBarIndex = 0;
-  List<Product> _products;
+ List<Product> _products;
   FirebaseUser _loggedUser;
   @override
   Widget build(BuildContext context) {
